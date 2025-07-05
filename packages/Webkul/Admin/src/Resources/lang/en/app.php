@@ -4620,7 +4620,7 @@ return [
         'layouts' => [
             'header' => [
                 'account-title' => 'Account',
-                'app-version'   => 'Version : :version',
+                'app-version'   => '',
                 'logout'        => 'Logout',
                 'my-account'    => 'My Account',
                 'notifications' => 'Notifications',
