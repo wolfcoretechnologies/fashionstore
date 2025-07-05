@@ -384,7 +384,8 @@
 
                 data() {
                     return {
-                        paymentMethods: @json(payment()->getSupportedPaymentMethods()['payment_methods']),
+                        paymentMethods: @json(app('Webkul\Payment\Payment')->getSupportedPaymentMethods()['payment_methods']),
+
 
                         isLoading: false,
                     };
